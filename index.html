@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тестовое задание</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="header-content">
+        <video autoplay muted loop loop muted playsinline class="video-background " width=100% height="100%">
+            <source src="/assets/video/01.mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+        <div class="header-block container-fluid text-center">
+            <div class="header-block__text row">
+                <h1>Добро пожаловать!</h1>
+                <p>На тестовое задание для школы GIGASCHOOL</p>
+                <a href="/#about">
+                    <button id="show_content" class="header-block__btn">Взглянуть!</button>
+                </a>
+            </div>
+
+            <div id="content" class="content-block hide container text-center">
+                <div class="content-header row">
+                    <div class="col"></div>
+                    <div class="col-lg-8">
+                        <h2>Ещё раз привет!</h2>
+                        <p>Меня зовут Дмитрий Михайлов</p>
+                        <!--                        <p>Меня зовут Дмитрий Михайлов <a id="surname" class="hiden_sur">показать отчество</a></p>-->
+                        <!--                <p>Меня зовут Дмитрий Михайлов <button class="btn btn-secondary">показать отчество</button></p>-->
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="about row row-lg col-md">
+                    <div class="col-lg-4 col-md-12">
+                        <h5 class="">Немного обо мне</h5>
+                        <p class="about_me">
+                            Меня характеризует легкость в обучении и интерес к новым знаниям. Я трудолюбивый и
+                            ответственный сотрудник. Мои основные навыки программирования - PHP, JavaScript, CSS,
+                            1С-Битрикс (Bitrix Site Manager) и Bubble. Я также имею базовые знания фулл-стек
+                            разработки.
+                        </p>
+                    </div>
+                    <div class="more_me col-lg-8 col-md-12">
+                        <div class="accordion" id="accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Опыт работы — 4 года 5 месяцев
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <strong>Интерсвязь</strong><br>
+                                            Веб-разработчик
+                                            Поддержка и редизайн основного сайта компании (https://www.is74.ru/), также
+                                            немного
+                                            добавляю функционал, работаю с php, javascript, css, 1c-bitrix, docker, gitlab,
+                                            figma
+                                        </p>
+                                        <p>
+                                            <strong>ОГБУ ЧРЦНИТ</strong><br>
+                                            Техник-технолог
+                                            Разрабатывал сайт на crm 1c-Bitrix, отвечал за поддержку всех сайтов
+                                            правительства
+                                            Челябинской области на ASP.NET, администрировал сервер на ос Linux Ubuntu,
+                                            занимался
+                                            технической поддержкой апи для сайта "Геопортал" (https://gis.inf74.ru)
+                                        </p>
+                                        <p>
+                                            <strong>Веб студия "Megasoft"</strong><br>
+                                            Web-программист
+                                            Создавал сайты на crm 1c-bitrix ( отвечал как за фронт так и бэкэнд), так же
+                                            принимали заявки
+                                            на устранение неисправностей чужих сайтов
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Образование — Среднее специальное
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <strong>Челябинский государственный университет, Челябинск</strong><br>
+                                            Программная инженерия, Программный инженер
+                                        </p>
+                                        <p>
+                                            <strong>Челябинский энергетический колледж им. С.М. Кирова</strong><br>
+                                            Программирование компьютерных систем, Техник-программист
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Контакты
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        Телефон: +7 (906) 8682225 <br>
+                                        Почта: Pro1ight@icloud.com
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
